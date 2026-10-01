@@ -58,7 +58,7 @@ const works = [
     description: ["액션", "리깅"],
     skeleton: "assets/Hisui/할 수 있다 나라면.json",
     atlas: "assets/Hisui/할 수 있다 나라면.atlas",
-    animation: "IDLE", "touch",
+    animation: "IDLE",
     backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
     thumbnail: "assets/Hisui/Hisui.png",

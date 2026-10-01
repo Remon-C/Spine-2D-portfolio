@@ -55,7 +55,7 @@ const works = [
     title: "이터널 리턴 히스이 애니메이션",
     role: "리깅 & 애니메이션",
     tags: ["게임 일러스트 애니메이션"],
-    description: ["액션", "리깅"]
+    description: ["액션", "리깅"],
     skeleton: "assets/Hisui/할 수 있다 나라면.json",
     atlas: "assets/Hisui/할 수 있다 나라면.atlas",
     animation: "idle",

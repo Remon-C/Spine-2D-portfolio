@@ -190,6 +190,11 @@ main {
   border: 1px solid rgba(255, 158, 100, 0.6);
 }
 
+.type-badge--video {
+  background: rgba(255, 110, 149, 0.2);
+  border: 1px solid rgba(255, 110, 149, 0.6);
+}
+
 /* 스프라이트(GIF) 뷰어 모드: 스파인 웹 플레이어 대신 이미지를 가운데 정렬해서 보여줌 */
 #player-container.sprite-mode {
   display: flex;

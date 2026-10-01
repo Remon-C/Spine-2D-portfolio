@@ -64,6 +64,18 @@ const works = [
     thumbnail: "assets/Hisui/Hisui.png",
   },
 
+{
+    id: "Hisuiskill",
+    title: "히스이 스킬 연출 유니티 구동 영상",
+    role: "이펙트 & 합성",
+    tags: ["영상", "이펙트"],
+    description: "유니티에서 스파인 캐릭터와 파티클 이펙트를 합성해 녹화한 영상입니다.",
+    type: "video",
+    media: "assets/Hisuiskill/Hisuiskill.mp4",
+    thumbnail: "assets/Hisuiskill/thumbnail.png",
+    backgroundColor: "#000000ff",
+},
+
   {
     id: "effect-demo",
     title: "버스트 이펙트 (데모)",

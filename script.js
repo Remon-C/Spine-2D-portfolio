@@ -84,6 +84,7 @@ function openSpineViewer(work) {
     atlas: work.atlas,
     animation: work.animation,
     skin: work.skin,
+    animations: work.animations, // (선택) 목록에 보여줄 애니메이션만 지정
     premultipliedAlpha: true,
     showControls: true,
     backgroundColor: work.backgroundColor || "#101018ff",

@@ -35,27 +35,56 @@
 
 const works = [
   {
-    id: "spineboy-demo",
-    title: "Spineboy (데모)",
-    role: "샘플 작업물 — 이 카드는 예시입니다",
-    tags: ["데모", "액션", "리깅"],
+    id: "silent-battle",
+    title: "사일런트 스킨 — 전투 모션",
+    role: "원화 · 리깅 · 애니메이션",
+    tags: ["슬레이 더 스파이어 2", "스킨 모드", "전투"],
     description:
-      "실제 작업물을 추가하기 전 보여주는 샘플입니다. Esoteric Software에서 제공하는 공식 예제 캐릭터로, 본인의 작업물로 교체해서 사용하세요.",
-    skeleton: "assets/spineboy-demo/spineboy-pro.json",
-    atlas: "assets/spineboy-demo/spineboy-pma.atlas",
-    animation: "walk",
-    skin: "default",
-    backgroundColor: "#14141fff",
+      "슬레이 더 스파이어 2 사일런트 스킨 모드의 전투 애니메이션입니다. 달리기(RUN), 대기, 공격, 시전, 단검(shiv), 피격, 사망, 상점 대기 모션을 직접 제작했습니다. 아래 목록에서 애니메이션을 바꿔볼 수 있어요.",
+    skeleton: "assets/silent-battle/silent.skel",
+    atlas: "assets/silent-battle/silent.atlas",
+    animation: "RUN",
+    backgroundColor: "#1a1a2eff",
     spineVersion: "4.3",
-    thumbnail: "assets/spineboy-demo/thumbnail.png",
+    thumbnail: "assets/silent-battle/thumbnail.jpg",
+  },
+
+  {
+    id: "silent-select",
+    title: "사일런트 스킨 — 캐릭터 선택 화면",
+    role: "원화 · 리깅 · 애니메이션",
+    tags: ["슬레이 더 스파이어 2", "스킨 모드", "일러스트 애니메이션"],
+    description:
+      "캐릭터 선택 화면용 일러스트 애니메이션입니다. 망토가 바람에 흩날리는 12초 루프 연출입니다.",
+    skeleton: "assets/silent-select/select_body.skel",
+    atlas: "assets/silent-select/select_body.atlas",
+    animation: "animation",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/silent-select/thumbnail.jpg",
+  },
+
+  {
+    id: "silent-rest",
+    title: "사일런트 스킨 — 휴식처",
+    role: "원화 · 리깅 · 애니메이션",
+    tags: ["슬레이 더 스파이어 2", "스킨 모드", "루프"],
+    description:
+      "휴식처(모닥불)에서 쉬는 모습의 루프 애니메이션입니다. 막(Act)별로 glory · hive · overgrowth 세 가지 버전이 있습니다.",
+    skeleton: "assets/silent-rest/rest_char.skel",
+    atlas: "assets/silent-rest/rest_char.atlas",
+    animation: "glory_loop",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/silent-rest/thumbnail.jpg",
   },
 
   {
     id: "Hisui",
     title: "이터널 리턴 히스이 애니메이션",
     role: "리깅 & 애니메이션",
-    tags: ["게임 일러스트 애니메이션"],
-    description: ["액션", "리깅"],
+    tags: ["게임 일러스트 애니메이션", "액션", "리깅"],
+    description: "이터널 리턴 히스이 일러스트를 리깅해 만든 애니메이션입니다.",
     skeleton: "assets/Hisui/할 수 있다 나라면.json",
     atlas: "assets/Hisui/할 수 있다 나라면.atlas",
     animation: "IDLE",
@@ -64,7 +93,7 @@ const works = [
     thumbnail: "assets/Hisui/Hisui.png",
   },
 
-{
+  {
     id: "Hisuiskill",
     title: "히스이 스킬 연출 유니티 구동 영상",
     role: "이펙트 & 합성",
@@ -74,18 +103,33 @@ const works = [
     media: "assets/Hisuiskill/Hisuiskill.mp4",
     thumbnail: "assets/Hisuiskill/thumbnail.png",
     backgroundColor: "#000000ff",
-},
+  },
 
   {
-    id: "effect-demo",
-    title: "버스트 이펙트 (데모)",
-    role: "샘플 작업물 — 직접 그린 GIF 이펙트 예시입니다",
-    tags: ["이펙트", "GIF", "데모"],
-    description:
-      "스파인이 아닌, 프레임을 직접 그려서 만든 GIF 이펙트를 올릴 때의 예시입니다. type을 'sprite'로 설정하면 됩니다.",
-    type: "sprite",
-    media: "assets/effect-demo/burst.gif",
-    backgroundColor: "#101018ff",
+    id: "riding-dog",
+    title: "탈것 — 개 몬스터",
+    role: "리깅 & 애니메이션 (원화: 명일방주)",
+    tags: ["몬스터", "4족 보행", "달리기"],
+    description: "명일방주(Arknights)의 몬스터 이미지로 리깅과 애니메이션을 직접 작업했습니다. 걷기, 달리기, 공격, 피격 모션이 있습니다. 원화의 저작권은 원저작권자에게 있습니다.",
+    skeleton: "assets/riding-dog/enemy_1000_gopro.skel",
+    atlas: "assets/riding-dog/enemy_1000_gopro.atlas",
+    animation: "run",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/riding-dog/thumbnail.jpg",
+  },
+
+  {
+    id: "spider",
+    title: "거미 몬스터",
+    role: "리깅 & 애니메이션 (원화: 명일방주)",
+    tags: ["몬스터", "다족 보행"],
+    description: "명일방주(Arknights)의 거미형 몬스터 이미지로 리깅과 애니메이션을 직접 작업했습니다. 이동, 공격 모션이 있습니다. 원화의 저작권은 원저작권자에게 있습니다.",
+    skeleton: "assets/spider/enemy_1100_scorpn.skel",
+    atlas: "assets/spider/enemy_1100_scorpn.atlas",
+    animation: "Move",
+    backgroundColor: "#1a1a2eff",
+    spineVersion: "4.3",
+    thumbnail: "assets/spider/thumbnail.jpg",
   },
 ];
-

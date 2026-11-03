@@ -1,0 +1,12 @@
+select_body.png
+size:788,694
+filter:Linear,Linear
+scale:0.5
+select_body
+bounds:2,2,403,445
+offsets:467,0,870,445
+rotate:90
+select_cloak 복사
+bounds:449,13,337,392
+select_cloak_back
+bounds:2,407,716,285
